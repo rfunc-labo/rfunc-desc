@@ -1,6 +1,6 @@
 {
   "name": "rfunc-desc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Describer for rfunc",
   "main": "lib",
   "scripts": {
