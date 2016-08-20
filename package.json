@@ -1,0 +1,43 @@
+{
+  "name": "rfunc-desc",
+  "version": "1.0.0",
+  "description": "Describer for rfunc",
+  "main": "lib",
+  "scripts": {
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js"
+  },
+  "repository": "rfunc-labo/rfunc-desc",
+  "keywords": [
+    "rfunc"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfunc-labo/rfunc-desc/issues"
+  },
+  "homepage": "https://github.com/rfunc-labo/rfunc-desc#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "comment-parser": "^0.4.0"
+  },
+  "devDependencies": {
+    "amocha": "^1.0.14",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-reporting": "^3.0.2",
+    "ape-tasking": "^4.0.8",
+    "ape-tmpl": "^5.0.15",
+    "ape-updating": "^4.0.5",
+    "coz": "^6.0.17",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
